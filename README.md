@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Travel App
+
+A modern travel inspiration web app built with Next.js. Browse destinations, explore curated experiences, and discover the world through immersive visuals and video content.
+
+## Features
+
+- Full-screen hero section with background video preview
+- Destination cards with rich imagery
+- Responsive navigation with mobile hamburger menu
+- Smooth, cinematic UI with a dark travel aesthetic
 
 ## Getting Started
 
@@ -16,21 +25,55 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+travel-app/
+├── app/
+│   ├── layout.tsx        # Root layout — fonts (Roboto, DM Sans), metadata
+│   ├── page.tsx          # Home page — hero section composition
+│   └── globals.css       # Tailwind theme — color & font variables
+├── components/
+│   ├── Navbar.tsx        # Top nav — logo, links, action icons
+│   ├── Logo.tsx          # Brand logo image
+│   ├── IconButton.tsx    # Reusable icon button (image + aria-label)
+│   ├── HamburgerButton.tsx  # Mobile menu toggle (animates to ×)
+│   ├── HeroVideo.tsx     # Full-screen background image
+│   ├── HeroContent.tsx   # Hero heading and CTA button
+│   ├── SideIndicator.tsx # Left-edge video progress bar + timer
+│   ├── BottomBar.tsx     # Bottom info bar — destination cards + video preview
+│   ├── DestinationCard.tsx  # Numbered destination info card
+│   └── VideoPreview.tsx  # Inline video with play/pause toggle
+└── public/
+    ├── logo.svg
+    ├── favicon.png
+    ├── mountain.webp     # Hero background image
+    ├── indonesia.mp4     # Preview video
+    └── icons/            # UI icons (search, etc.)
+```
 
-## Learn More
+## Component Tree
 
-To learn more about Next.js, take a look at the following resources:
+```
+RootLayout (app/layout.tsx)
+└── Home (app/page.tsx)
+    └── <section> hero
+        ├── HeroVideo               # background image
+        ├── <div> gradient overlay
+        ├── Navbar
+        │   ├── Logo
+        │   ├── <ul> nav links
+        │   ├── IconButton          # search
+        │   └── HamburgerButton     # mobile only
+        ├── HeroContent             # heading + CTA
+        └── BottomBar
+            ├── <div> social links
+            ├── DestinationCard ×3
+            └── VideoPreview        # video + play/pause toggle
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js](https://nextjs.org) — React framework
+- Tailwind CSS — utility-first styling with custom design tokens
+- TypeScript
