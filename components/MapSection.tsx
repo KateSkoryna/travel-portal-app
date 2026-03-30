@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Locale } from "@/lib/getDictionary";
 
 interface Stat {
@@ -56,22 +57,25 @@ export default function MapSection({ numbers, map, lang }: MapSectionProps) {
       {/* Hills & Valleys — map section */}
       <section className="relative bg-white overflow-hidden py-28 px-[8%] flex items-center justify-center min-h-[500px]">
         {/* Topographic decoration — left (top-left corner) */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src="/topo-left.svg"
           alt=""
           aria-hidden
-          className="absolute -left-24 -top-10 h-[600px] w-auto pointer-events-none"
+          className="absolute -left-64 -top-10 h-[600px] w-auto pointer-events-none"
+          width={1392}
+          height={1702}
+          priority
         />
-
         {/* Topographic decoration — right (bottom-right corner, mirrored) */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src="/topo-left.svg"
           alt=""
           aria-hidden
-          className="absolute -right-24 -bottom-10 h-[500px] w-auto pointer-events-none"
+          className="absolute -right-44 -bottom-10 h-[500px] w-auto pointer-events-none"
           style={{ transform: "scale(-1, -1)" }}
+          width={1392}
+          height={1702}
+          priority
         />
 
         {/* Centered content */}

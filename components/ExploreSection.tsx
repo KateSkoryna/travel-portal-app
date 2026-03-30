@@ -2,10 +2,11 @@ import Image from "next/image";
 import ExploreCarousel from "./ExploreCarousel";
 
 const slideImages = [
-  "/sunset.webp",
   "/kids.webp",
   "/greenIsland.webp",
+  "/bicicle.webp",
   "/colorhouse.webp",
+  "/sunset.webp",
 ];
 
 interface Slide {
@@ -31,7 +32,7 @@ export default function ExploreSection({ dict }: ExploreSectionProps) {
       <div className="absolute inset-0">
         <Image
           src="/jacket.webp"
-          alt="mointains"
+          alt="mountains"
           fill
           className="object-cover object-[center_20%]"
           priority

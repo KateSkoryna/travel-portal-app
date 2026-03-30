@@ -21,7 +21,7 @@ export default function ArticlesSection({ articles, lang }: ArticlesSectionProps
     <section className="relative bg-navy overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0 pointer-events-none opacity-20">
-        <Image src="/view.webp" alt="" fill className="object-cover" />
+        <Image src="/view.webp" alt="" fill className="object-cover" priority />
       </div>
 
       {/* Gradient overlays for seamless blending */}

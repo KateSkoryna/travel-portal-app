@@ -9,6 +9,7 @@ export default function Logo() {
       className="h-[49px] w-auto object-contain"
       width={186}
       height={49}
+      priority
     />
   );
 }
