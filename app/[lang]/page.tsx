@@ -4,6 +4,8 @@ import HeroContent from "@/components/HeroContent";
 import HeroVideo from "@/components/HeroVideo";
 import BottomBar from "@/components/BottomBar";
 import ArticlesSection from "@/components/ArticlesSection";
+import ExploreSection from "@/components/ExploreSection";
+import MapSection from "@/components/MapSection";
 
 export default async function Home({
   params,
@@ -36,6 +38,10 @@ export default async function Home({
       </section>
 
       <ArticlesSection articles={dict.articles} lang={lang} />
+
+      <ExploreSection dict={dict.explore} />
+
+      <MapSection numbers={dict.explore.numbers} map={dict.map} lang={lang} />
     </main>
   );
 }

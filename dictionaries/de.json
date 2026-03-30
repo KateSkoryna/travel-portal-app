@@ -10,6 +10,30 @@
     "about": "Über uns",
     "gallery": "Galerie"
   },
+  "explore": {
+    "heading": "Entdecke unsere Geheimnisse",
+    "slides": [
+      { "alt": "Sonnenuntergang über Bali-Tempel" },
+      { "alt": "Kinder spielen im Dschungel" },
+      { "alt": "Grüne Insel aus der Luft" },
+      { "alt": "Bunte traditionelle Häuser" }
+    ],
+    "numbers": {
+      "heading": "In Zahlen",
+      "description": "Indonesien ist eines der artenreichsten und kulturell vielfältigsten Reiseziele der Welt, mit Wundern, die kaum ein anderer Ort bieten kann.",
+      "stats": [
+        { "value": "100+", "label": "Einzigartige Tierarten, die es sonst nirgendwo auf der Erde gibt" },
+        { "value": "43.000+", "label": "Inseln, die den riesigen Archipel bilden" },
+        { "value": "30+", "label": "UNESCO-Welterbestätten zu entdecken" }
+      ]
+    }
+  },
+  "map": {
+    "heading": "Unsere Hügel und Täler sind wie nichts, was du je gesehen hast.",
+    "description": "Von uralten Vulkangipfeln bis zu smaragdgrünen Reisterrassen bietet Indonesiens Landschaft eine Schönheit, die dich für immer begleitet.",
+    "cta": "Mehr erfahren",
+    "slug": "huegel-und-taeler"
+  },
   "articles": [
     {
       "title": "Die Wege Indonesiens verzaubern",

@@ -10,6 +10,30 @@
     "about": "About",
     "gallery": "Gallery"
   },
+  "explore": {
+    "heading": "Explore Our Secrets",
+    "slides": [
+      { "alt": "Sunset over Bali temple" },
+      { "alt": "Kids playing in the jungle" },
+      { "alt": "Green island aerial view" },
+      { "alt": "Colorful traditional houses" }
+    ],
+    "numbers": {
+      "heading": "By The Numbers",
+      "description": "Indonesia is one of the world's most biodiverse and culturally rich destinations, with wonders that few places on Earth can match.",
+      "stats": [
+        { "value": "100+", "label": "Unique species of wildlife found nowhere else on Earth" },
+        { "value": "43,000+", "label": "Islands scattered across the vast archipelago" },
+        { "value": "30+", "label": "UNESCO World Heritage Sites to discover" }
+      ]
+    }
+  },
+  "map": {
+    "heading": "Our hills and valleys are like nothing you've seen.",
+    "description": "From ancient volcanic peaks to emerald rice terraces, Indonesia's landscapes offer a beauty that stays with you forever.",
+    "cta": "Learn More",
+    "slug": "hills-and-valleys"
+  },
   "articles": [
     {
       "title": "The walkways of Indonesia spellbind",
