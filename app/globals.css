@@ -3,6 +3,7 @@
 @theme {
   --color-primary: #DD2242;
   --color-gray-muted: #939393;
+  --color-navy: #010A20;
   --font-heading: var(--font-roboto);
   --font-body: var(--font-dm-sans);
 }

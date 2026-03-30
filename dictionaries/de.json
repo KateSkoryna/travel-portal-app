@@ -10,6 +10,20 @@
     "about": "Über uns",
     "gallery": "Galerie"
   },
+  "articles": [
+    {
+      "title": "Die Wege Indonesiens verzaubern",
+      "description": "Entdecke uralte Pfade durch üppige Dschungel und Reisterrassen, die die Seele des Archipels enthüllen.",
+      "cta": "Mehr erfahren",
+      "slug": "wege-indonesiens"
+    },
+    {
+      "title": "Perfekte Strände strahlen Erholung und Spaß aus",
+      "description": "Von versteckten Buchten bis zu weiten Küsten bietet Indonesien endlose sonnenverwöhnte Auszeiten für jeden Reisenden.",
+      "cta": "Mehr erfahren",
+      "slug": "perfekte-straende"
+    }
+  ],
   "destinations": [
     { "number": "01", "title": "Bali", "description": "Insel der Götter — Tempel, Terrassen und türkisfarbene Küste." },
     { "number": "02", "title": "Raja Ampat", "description": "Weltklasse-Tauchen im Korallendreieck." },

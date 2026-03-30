@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import HeroContent from "@/components/HeroContent";
 import HeroVideo from "@/components/HeroVideo";
 import BottomBar from "@/components/BottomBar";
+import ArticlesSection from "@/components/ArticlesSection";
 
 export default async function Home({
   params,
@@ -33,6 +34,8 @@ export default async function Home({
 
         <BottomBar destinations={dict.destinations} />
       </section>
+
+      <ArticlesSection articles={dict.articles} lang={lang} />
     </main>
   );
 }

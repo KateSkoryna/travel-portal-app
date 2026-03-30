@@ -10,6 +10,20 @@
     "about": "About",
     "gallery": "Gallery"
   },
+  "articles": [
+    {
+      "title": "The walkways of Indonesia spellbind",
+      "description": "Discover ancient paths that wind through lush jungles and terraced rice fields, revealing the soul of the archipelago.",
+      "cta": "Learn More",
+      "slug": "walkways-of-indonesia"
+    },
+    {
+      "title": "Perfect beaches exude relaxation and fun",
+      "description": "From hidden coves to sweeping bays, Indonesia's coastlines offer endless sun-soaked escapes for every traveller.",
+      "cta": "Learn More",
+      "slug": "perfect-beaches"
+    }
+  ],
   "destinations": [
     { "number": "01", "title": "Bali", "description": "Island of the Gods — temples, terraces, and turquoise coast." },
     { "number": "02", "title": "Raja Ampat", "description": "World-class diving in the coral triangle." },
