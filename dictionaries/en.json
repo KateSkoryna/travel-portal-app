@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "heading1": "Explore",
+    "heading2": "Indonesia",
+    "cta": "Start travelling"
+  },
+  "nav": {
+    "destinations": "Destinations",
+    "experiences": "Experiences",
+    "about": "About",
+    "gallery": "Gallery"
+  },
+  "destinations": [
+    { "number": "01", "title": "Bali", "description": "Island of the Gods — temples, terraces, and turquoise coast." },
+    { "number": "02", "title": "Raja Ampat", "description": "World-class diving in the coral triangle." },
+    { "number": "03", "title": "Komodo", "description": "Ancient dragons and pink-sand beaches." }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "heading1": "Entdecke",
+    "heading2": "Indonesien",
+    "cta": "Jetzt reisen"
+  },
+  "nav": {
+    "destinations": "Reiseziele",
+    "experiences": "Erlebnisse",
+    "about": "Über uns",
+    "gallery": "Galerie"
+  },
+  "destinations": [
+    { "number": "01", "title": "Bali", "description": "Insel der Götter — Tempel, Terrassen und türkisfarbene Küste." },
+    { "number": "02", "title": "Raja Ampat", "description": "Weltklasse-Tauchen im Korallendreieck." },
+    { "number": "03", "title": "Komodo", "description": "Urzeitliche Drachen und rosafarbene Strände." }
+  ]
+}
