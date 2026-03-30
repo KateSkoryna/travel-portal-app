@@ -19,6 +19,10 @@
 
 # production
 /build
+PLAN.md
+AGENTS.md
+GEMINI.md
+CLAUDE.md
 
 # misc
 .DS_Store
