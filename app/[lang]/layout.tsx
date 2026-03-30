@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import type { Locale } from "@/lib/getDictionary";
 import { Roboto, DM_Sans } from "next/font/google";
 import "../globals.css";
@@ -13,14 +12,6 @@ const dmSans = DM_Sans({
   variable: "--font-dm-sans",
   subsets: ["latin"],
 });
-
-export const metadata: Metadata = {
-  title: "Explore Indonesia",
-  description: "Discover the beauty of Indonesia",
-  icons: {
-    icon: "/favicon.png",
-  },
-};
 
 export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "de" }];
