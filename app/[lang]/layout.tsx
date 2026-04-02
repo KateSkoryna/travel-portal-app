@@ -1,4 +1,3 @@
-import type { Locale } from "@/lib/getDictionary";
 import { Roboto, DM_Sans } from "next/font/google";
 import "../globals.css";
 
@@ -22,7 +21,7 @@ export default async function LangLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
   return (
