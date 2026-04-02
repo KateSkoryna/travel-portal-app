@@ -49,36 +49,37 @@ export default function VideoSection({ heading, cards }: VideoSectionProps) {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 w-2/3 flex flex-col items-center gap-10">
-        {/* Heading */}
-        <h2
-          className="font-body font-bold text-white text-center"
-          style={{ fontSize: "42px", lineHeight: "1.35" }}
-        >
-          {heading}
-        </h2>
+      <div className="relative z-10 w-full flex flex-col items-center gap-10">
+        {/* Heading + Main video */}
+        <div className="w-2/3 flex flex-col items-center gap-10">
+          <h2
+            className="font-body font-bold text-white text-center"
+            style={{ fontSize: "42px", lineHeight: "1.35" }}
+          >
+            {heading}
+          </h2>
 
-        {/* Main video */}
-        <div
-          className="relative w-full rounded-2xl overflow-hidden cursor-pointer"
-          style={{ aspectRatio: "4/3" }}
-          onClick={togglePlay}
-        >
-          <video
-            ref={videoRef}
-            src="/indonesia.mp4"
-            muted
-            loop
-            playsInline
-            onPlay={() => setPlaying(true)}
-            onPause={() => setPlaying(false)}
-            className="absolute inset-0 w-full h-full object-cover"
-          />
-          {!playing && (
-            <div className="absolute inset-0 z-10 flex items-center justify-center">
-              <PlayButton variant="primary" size="lg" />
-            </div>
-          )}
+          <div
+            className="relative w-full rounded-2xl overflow-hidden cursor-pointer"
+            style={{ aspectRatio: "4/3" }}
+            onClick={togglePlay}
+          >
+            <video
+              ref={videoRef}
+              src="/indonesia.mp4"
+              muted
+              loop
+              playsInline
+              onPlay={() => setPlaying(true)}
+              onPause={() => setPlaying(false)}
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+            {!playing && (
+              <div className="absolute inset-0 z-10 flex items-center justify-center">
+                <PlayButton variant="primary" size="lg" />
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Two mini cards */}
@@ -87,7 +88,7 @@ export default function VideoSection({ heading, cards }: VideoSectionProps) {
             <div key={card.title} className="flex gap-4 flex-1 min-w-0">
               {/* Thumbnail with play icon */}
               <div
-                className="relative w-[130px] h-[90px] rounded-xl overflow-hidden shrink-0 cursor-pointer"
+                className="relative w-[156px] h-[108px] rounded-xl overflow-hidden shrink-0 cursor-pointer"
                 onClick={i === 0 ? toggleSmallPlay : undefined}
               >
                 {i === 0 ? (
@@ -118,7 +119,7 @@ export default function VideoSection({ heading, cards }: VideoSectionProps) {
 
               {/* Text */}
               <div className="flex flex-col gap-2 min-w-0">
-                <h3 className="font-body font-bold text-white text-[17px] leading-tight">
+                <h3 className="font-body font-bold text-white text-[17px] leading-tight whitespace-nowrap">
                   {card.title}
                 </h3>
                 <p className="font-body text-off-white text-[13px] leading-[1.6]">
