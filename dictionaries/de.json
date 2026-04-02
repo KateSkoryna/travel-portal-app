@@ -36,18 +36,18 @@
   },
   "photoGallery": {
     "heading": "Fotogalerie",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt."
+    "description": "Ein Blick auf die Landschaften, Kulturen und flüchtigen Momente, die Indonesien zu einem der fesselndsten Reiseziele der Welt machen."
   },
   "videoSection": {
     "heading": "Lebe ein Leben, das du dir nicht vorstellen kannst, erlebe ein Leben, das du nicht erwartest.",
     "cards": [
       {
         "title": "Auf dem Land",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus."
+        "description": "Wandere durch smaragdgrüne Reisterrassen, Vulkanhochländer und Dschungelpfade, wo das Dorfleben in einem Tempo abläuft, das dich daran erinnert, wofür Reisen wirklich da ist."
       },
       {
         "title": "In der Stadt",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in."
+        "description": "Tauche ein in die Energie von Ubuds Kunstmärkten, Yogyakartas Straßenküche und Jakartas Skyline — Kultur und Chaos in perfekter Balance."
       }
     ]
   },
@@ -70,20 +70,20 @@
     "steps": [
       {
         "title": "Flüge buchen",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim."
+        "description": "Balis Ngurah Rai und Jakartas Soekarno-Hatta verbinden Indonesien mit den großen Drehkreuzen weltweit. Frühzeitig buchen öffnet bessere Preise und mehr Flexibilität beim Inselhopping."
       },
       {
         "title": "Hotel auswählen",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim."
+        "description": "Indonesien bietet alles – von Klippenvillas in Uluwatu bis zu Dschungel-Ökolodges in Ubud. Überlege zuerst, welches Erlebnis du möchtest – die Unterkunft ergibt sich dann von selbst."
       },
       {
         "title": "Erlebnisse planen",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius."
+        "description": "Surfen, Tauchen, Tempelbesuche oder einfach den Sonnenuntergang über den Reisfeldern – finde heraus, was dich anzieht, und baue alles andere darum auf."
       }
     ],
     "videoCard": {
       "title": "Dorthin reisen",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt."
+      "description": "Inlandsflüge, Fährüberfahrten und Inselboote machen das Reisen zwischen den Zielen selbst zu einem Teil des Abenteuers."
     },
     "cta": "Mehr erfahren"
   },

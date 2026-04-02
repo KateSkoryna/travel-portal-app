@@ -36,18 +36,18 @@
   },
   "photoGallery": {
     "heading": "Photo Gallery",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt."
+    "description": "A glimpse into the landscapes, cultures, and fleeting moments that make Indonesia one of the most captivating destinations on Earth."
   },
   "videoSection": {
     "heading": "Live a life like you wouldn't imagine, experience a life you wouldn't expect.",
     "cards": [
       {
         "title": "In The Country",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus."
+        "description": "Wander through emerald rice terraces, volcanic highlands, and jungle trails where village life unfolds at a pace that reminds you what travel is for."
       },
       {
         "title": "In The City",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in."
+        "description": "Dive into the energy of Ubud's art markets, Yogyakarta's street food, and Jakarta's rooftop skyline — culture and chaos in perfect balance."
       }
     ]
   },
@@ -69,21 +69,21 @@
     "heading": "Getting there",
     "steps": [
       {
-        "title": "Bookings your flights",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim."
+        "title": "Booking your flights",
+        "description": "Bali's Ngurah Rai and Jakarta's Soekarno-Hatta connect Indonesia to major hubs worldwide. Booking a few months ahead opens up better fares and more flexibility to hop between islands."
       },
       {
         "title": "Choosing your hotel",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim."
+        "description": "Indonesia offers everything from clifftop villas in Uluwatu to jungle eco-lodges in Ubud. Think about what experience you want first — the accommodation will follow naturally from there."
       },
       {
         "title": "Planning your experiences",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius."
+        "description": "Surfing, diving, temple hopping, or simply watching the sun set over the rice fields — know what draws you and build the rest around it."
       }
     ],
     "videoCard": {
       "title": "Travelling there",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt."
+      "description": "Domestic flights, ferry crossings, and island-hopping boats make getting between destinations part of the adventure itself."
     },
     "cta": "Learn More"
   },
