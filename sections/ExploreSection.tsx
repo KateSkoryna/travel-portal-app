@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ExploreCarousel from "./ExploreCarousel";
+import ExploreCarousel from "@/components/ExploreCarousel";
 
 const slideImages = [
   "/kids.webp",
@@ -27,7 +27,7 @@ export default function ExploreSection({ dict }: ExploreSectionProps) {
   }));
 
   return (
-    <section className="relative min-h-[130vh] overflow-hidden flex flex-col">
+    <section id="explore-section" className="relative min-h-[130vh] overflow-hidden flex flex-col">
       {/* Full-section background */}
       <div className="absolute inset-0">
         <Image
