@@ -34,6 +34,23 @@
     "cta": "Mehr erfahren",
     "slug": "huegel-und-taeler"
   },
+  "photoGallery": {
+    "heading": "Fotogalerie",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt."
+  },
+  "videoSection": {
+    "heading": "Lebe ein Leben, das du dir nicht vorstellen kannst, erlebe ein Leben, das du nicht erwartest.",
+    "cards": [
+      {
+        "title": "Auf dem Land",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus."
+      },
+      {
+        "title": "In der Stadt",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in."
+      }
+    ]
+  },
   "articles": [
     {
       "title": "Die Wege Indonesiens verzaubern",
@@ -48,6 +65,32 @@
       "slug": "perfekte-straende"
     }
   ],
+  "gettingThere": {
+    "heading": "Anreise",
+    "steps": [
+      {
+        "title": "Flüge buchen",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim."
+      },
+      {
+        "title": "Hotel auswählen",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim."
+      },
+      {
+        "title": "Erlebnisse planen",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius."
+      }
+    ],
+    "videoCard": {
+      "title": "Dorthin reisen",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt."
+    },
+    "cta": "Mehr erfahren"
+  },
+  "footer": {
+    "links": ["Über uns", "Preise", "Unternehmen", "Blog"],
+    "copyright": "Copyright © 2026"
+  },
   "destinations": [
     { "number": "01", "title": "Bali", "description": "Insel der Götter — Tempel, Terrassen und türkisfarbene Küste." },
     { "number": "02", "title": "Raja Ampat", "description": "Weltklasse-Tauchen im Korallendreieck." },

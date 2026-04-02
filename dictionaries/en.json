@@ -34,6 +34,23 @@
     "cta": "Learn More",
     "slug": "hills-and-valleys"
   },
+  "photoGallery": {
+    "heading": "Photo Gallery",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt."
+  },
+  "videoSection": {
+    "heading": "Live a life like you wouldn't imagine, experience a life you wouldn't expect.",
+    "cards": [
+      {
+        "title": "In The Country",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus."
+      },
+      {
+        "title": "In The City",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in."
+      }
+    ]
+  },
   "articles": [
     {
       "title": "The walkways of Indonesia spellbind",
@@ -48,6 +65,32 @@
       "slug": "perfect-beaches"
     }
   ],
+  "gettingThere": {
+    "heading": "Getting there",
+    "steps": [
+      {
+        "title": "Bookings your flights",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim."
+      },
+      {
+        "title": "Choosing your hotel",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim."
+      },
+      {
+        "title": "Planning your experiences",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius."
+      }
+    ],
+    "videoCard": {
+      "title": "Travelling there",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt."
+    },
+    "cta": "Learn More"
+  },
+  "footer": {
+    "links": ["About", "Pricing", "Company", "Blog"],
+    "copyright": "Copyright © 2026"
+  },
   "destinations": [
     { "number": "01", "title": "Bali", "description": "Island of the Gods — temples, terraces, and turquoise coast." },
     { "number": "02", "title": "Raja Ampat", "description": "World-class diving in the coral triangle." },

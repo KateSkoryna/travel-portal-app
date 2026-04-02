@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import PlayButton from "./PlayButton";
 
 /** Video preview — shown in the bottom-right of the hero */
 export default function VideoPreview() {
@@ -38,11 +39,7 @@ export default function VideoPreview() {
       {/* Play icon — visible only when paused */}
       {!playing && (
         <div className="absolute inset-0 z-30 flex items-center justify-center">
-          <div className="flex items-center justify-center w-12 h-12 rounded-full bg-black/50 text-white">
-            <svg width="16" height="18" viewBox="0 0 12 14" fill="currentColor">
-              <path d="M0 0 L12 7 L0 14 Z" />
-            </svg>
-          </div>
+          <PlayButton variant="primary" size="md" />
         </div>
       )}
     </div>

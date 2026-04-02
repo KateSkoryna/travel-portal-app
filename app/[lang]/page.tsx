@@ -3,9 +3,14 @@ import Navbar from "@/components/Navbar";
 import HeroContent from "@/components/HeroContent";
 import HeroVideo from "@/components/HeroVideo";
 import BottomBar from "@/components/BottomBar";
-import ArticlesSection from "@/components/ArticlesSection";
-import ExploreSection from "@/components/ExploreSection";
-import MapSection from "@/components/MapSection";
+import ArticlesSection from "@/sections/ArticlesSection";
+import VideoSection from "@/sections/VideoSection";
+import PhotoGallery from "@/sections/PhotoGallery";
+import ExploreSection from "@/sections/ExploreSection";
+import MapSection from "@/sections/MapSection";
+import GettingThereSection from "@/sections/GettingThereSection";
+import FooterSection from "@/sections/FooterSection";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 export default async function Home({
   params,
@@ -42,6 +47,21 @@ export default async function Home({
       <ExploreSection dict={dict.explore} />
 
       <MapSection numbers={dict.explore.numbers} map={dict.map} lang={lang} />
+
+      <VideoSection heading={dict.videoSection.heading} cards={dict.videoSection.cards} />
+
+      <PhotoGallery heading={dict.photoGallery.heading} description={dict.photoGallery.description} />
+
+      <GettingThereSection
+        heading={dict.gettingThere.heading}
+        steps={dict.gettingThere.steps}
+        videoCard={dict.gettingThere.videoCard}
+        cta={dict.gettingThere.cta}
+      />
+
+      <FooterSection links={dict.footer.links} copyright={dict.footer.copyright} />
+
+      <ScrollToTopButton />
     </main>
   );
 }

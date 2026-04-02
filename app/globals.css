@@ -5,6 +5,7 @@
   --color-gray-muted: #939393;
   --color-navy: #010A20;
   --color-off-white: #E0E0E0;
+  --color-bg-light: #85A3B2;
   --font-heading: var(--font-roboto);
   --font-body: var(--font-dm-sans);
 }
