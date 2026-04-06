@@ -47,12 +47,7 @@ export default function BottomBar({ destinations }: BottomBarProps) {
       {/* Dark panel with destination cards */}
       <div className="flex flex-1 items-center bg-black/60 pl-8 pr-[9%] py-6 gap-6">
         {destinations.map((dest) => (
-          <DestinationCard
-            key={dest.number}
-            number={dest.number}
-            title={dest.title}
-            description={dest.description}
-          />
+          <DestinationCard key={dest.number} {...dest} />
         ))}
       </div>
 
