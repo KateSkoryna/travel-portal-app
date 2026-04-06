@@ -1,5 +1,3 @@
-@AGENTS.md
-
 # Git Commits
 
 - Keep commit messages short and clear (one line, imperative tone)
