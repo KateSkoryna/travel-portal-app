@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import PlayButton from "@/components/PlayButton";
+import { asset } from "@/lib/assetPath";
 
 interface Step {
   title: string;
@@ -87,7 +88,7 @@ export default function GettingThereSection({
               >
                 <video
                   ref={videoRef}
-                  src="/sunset.mp4"
+                  src={asset("/sunset.mp4")}
                   muted
                   loop
                   playsInline

@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import Image from "next/image";
 import PlayButton from "@/components/PlayButton";
+import { asset } from "@/lib/assetPath";
 
 interface VideoCard {
   title: string;
@@ -74,7 +75,7 @@ export default function VideoSection({ heading, cards }: VideoSectionProps) {
           >
             <video
               ref={videoRef}
-              src="/indonesia.mp4"
+              src={asset("/indonesia.mp4")}
               muted
               loop
               playsInline
@@ -102,7 +103,7 @@ export default function VideoSection({ heading, cards }: VideoSectionProps) {
                 {i === 0 ? (
                   <video
                     ref={smallVideoRef}
-                    src="/sunset.mp4"
+                    src={asset("/sunset.mp4")}
                     muted
                     loop
                     playsInline

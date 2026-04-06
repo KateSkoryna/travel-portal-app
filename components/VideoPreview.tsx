@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import PlayButton from "./PlayButton";
+import { asset } from "@/lib/assetPath";
 
 /** Video preview — shown in the bottom-right of the hero */
 export default function VideoPreview() {
@@ -27,7 +28,7 @@ export default function VideoPreview() {
     >
       <video
         ref={videoRef}
-        src="/indonesia.mp4"
+        src={asset("/indonesia.mp4")}
         muted
         loop
         playsInline
