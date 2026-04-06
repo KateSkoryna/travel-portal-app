@@ -8,6 +8,24 @@ interface Slide {
   alt: string;
 }
 
+function CarouselNavButton({
+  direction,
+  onClick,
+}: {
+  direction: "prev" | "next";
+  onClick: () => void;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      aria-label={direction === "prev" ? "Previous" : "Next"}
+      className={`absolute ${direction === "prev" ? "left-2" : "right-2"} top-1/2 -translate-y-1/2 z-10 text-4xl font-bold text-navy/60 hover:text-navy transition-colors px-2`}
+    >
+      {direction === "prev" ? "‹" : "›"}
+    </button>
+  );
+}
+
 export default function ExploreCarousel({ slides }: { slides: Slide[] }) {
   const total = slides.length;
   const [active, setActive] = useState(0);
@@ -22,20 +40,8 @@ export default function ExploreCarousel({ slides }: { slides: Slide[] }) {
         className="relative w-full overflow-hidden"
         style={{ paddingTop: "26%" }}
       >
-        <button
-          onClick={prev}
-          aria-label="Previous"
-          className="absolute left-2 top-1/2 -translate-y-1/2 z-10 text-4xl font-bold text-navy/60 hover:text-navy transition-colors px-2"
-        >
-          ‹
-        </button>
-        <button
-          onClick={next}
-          aria-label="Next"
-          className="absolute right-2 top-1/2 -translate-y-1/2 z-10 text-4xl font-bold text-navy/60 hover:text-navy transition-colors px-2"
-        >
-          ›
-        </button>
+        <CarouselNavButton direction="prev" onClick={prev} />
+        <CarouselNavButton direction="next" onClick={next} />
 
         {slides.map((slide, i) => {
           // Shortest-path position relative to active
