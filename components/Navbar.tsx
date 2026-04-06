@@ -3,6 +3,7 @@ import Logo from "./Logo";
 import IconButton from "./IconButton";
 import HamburgerButton from "./HamburgerButton";
 import LanguageSwitcher from "./LanguageSwitcher";
+import NavLinks from "./NavLinks";
 
 const imgSearch = "/icons/search.svg";
 
@@ -19,9 +20,9 @@ interface NavbarProps {
 /** Top navigation bar with logo, links and action icons */
 export default function Navbar({ dict, lang }: NavbarProps) {
   const navLinks = [
-    { key: "destinations", label: dict.destinations },
-    { key: "experiences", label: dict.experiences },
     { key: "about", label: dict.about },
+    { key: "experiences", label: dict.experiences },
+    { key: "destinations", label: dict.destinations },
     { key: "gallery", label: dict.gallery },
   ];
 
@@ -31,18 +32,7 @@ export default function Navbar({ dict, lang }: NavbarProps) {
       <Logo />
 
       {/* Nav links */}
-      <ul className="hidden md:flex flex-1 items-center justify-start gap-10 lg:gap-14">
-        {navLinks.map(({ key, label }) => (
-          <li key={key}>
-            <a
-              href={`#${key}`}
-              className="font-body font-bold text-white uppercase text-[18px] tracking-wide hover:text-primary transition-colors"
-            >
-              {label}
-            </a>
-          </li>
-        ))}
-      </ul>
+      <NavLinks links={navLinks} />
 
       {/* Action icons */}
       <div className="flex items-center gap-4">

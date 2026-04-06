@@ -27,7 +27,7 @@ export default function ExploreSection({ dict }: ExploreSectionProps) {
   }));
 
   return (
-    <section id="explore-section" className="relative min-h-[130vh] overflow-hidden flex flex-col">
+    <section id="experiences" className="relative min-h-[130vh] overflow-hidden flex flex-col">
       {/* Full-section background */}
       <div className="absolute inset-0">
         <Image

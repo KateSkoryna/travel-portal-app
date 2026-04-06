@@ -22,7 +22,7 @@ const columns = [
 
 export default function PhotoGallery({ heading, description }: PhotoGalleryProps) {
   return (
-    <section className="bg-white py-20 px-[8%]">
+    <section id="gallery" className="bg-white py-20 px-[8%]">
       {/* Header */}
       <div className="flex flex-col items-center gap-4 mb-12 text-center">
         <h2

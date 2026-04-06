@@ -18,7 +18,7 @@ const articleImages = ["/path.webp", "/beach.webp"];
 
 export default function ArticlesSection({ articles, lang }: ArticlesSectionProps) {
   return (
-    <section className="relative bg-navy overflow-hidden">
+    <section id="about" className="relative bg-navy overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0 pointer-events-none opacity-20">
         <Image src="/view.webp" alt="" fill className="object-cover" priority />

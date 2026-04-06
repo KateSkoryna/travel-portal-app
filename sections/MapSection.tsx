@@ -26,7 +26,7 @@ export default function MapSection({ numbers, map, lang }: MapSectionProps) {
   return (
     <>
       {/* By The Numbers */}
-      <section className="bg-navy py-20 px-[8%]">
+      <section id="destinations" className="bg-navy py-20 px-[8%]">
         <h2
           className="font-body font-bold text-white text-center mb-6"
           style={{ fontSize: "60px", lineHeight: "1.5" }}
