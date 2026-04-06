@@ -82,7 +82,7 @@ export default function MapSection({ numbers, map, lang }: MapSectionProps) {
         <div className="relative z-10 flex flex-col items-center gap-6 max-w-[615px] text-center">
           <h2
             className="font-body font-bold text-black"
-            style={{ fontSize: "42px", lineHeight: "50px" }}
+            style={{ fontSize: "60px", lineHeight: "1.5" }}
           >
             {map.heading}
           </h2>

@@ -27,7 +27,10 @@ export default function ExploreSection({ dict }: ExploreSectionProps) {
   }));
 
   return (
-    <section id="experiences" className="relative min-h-[130vh] overflow-hidden flex flex-col">
+    <section
+      id="experiences"
+      className="relative min-h-[130vh] overflow-hidden flex flex-col"
+    >
       {/* Full-section background */}
       <div className="absolute inset-0">
         <Image
@@ -43,7 +46,7 @@ export default function ExploreSection({ dict }: ExploreSectionProps) {
       <div className="relative z-10 pt-20 pb-24 px-[8%]">
         <h2
           className="font-body font-bold text-navy text-center mb-10"
-          style={{ fontSize: "50px", lineHeight: "1.5" }}
+          style={{ fontSize: "60px", lineHeight: "1.5" }}
         >
           {dict.heading}
         </h2>

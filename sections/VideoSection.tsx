@@ -25,13 +25,21 @@ export default function VideoSection({ heading, cards }: VideoSectionProps) {
   function togglePlay() {
     const video = videoRef.current;
     if (!video) return;
-    if (video.paused) { video.play(); } else { video.pause(); }
+    if (video.paused) {
+      video.play();
+    } else {
+      video.pause();
+    }
   }
 
   function toggleSmallPlay() {
     const video = smallVideoRef.current;
     if (!video) return;
-    if (video.paused) { video.play(); } else { video.pause(); }
+    if (video.paused) {
+      video.play();
+    } else {
+      video.pause();
+    }
   }
 
   return (
@@ -54,7 +62,7 @@ export default function VideoSection({ heading, cards }: VideoSectionProps) {
         <div className="w-2/3 flex flex-col items-center gap-10">
           <h2
             className="font-body font-bold text-white text-center"
-            style={{ fontSize: "42px", lineHeight: "1.35" }}
+            style={{ fontSize: "60px", lineHeight: "1.5" }}
           >
             {heading}
           </h2>
