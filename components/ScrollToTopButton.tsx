@@ -6,12 +6,13 @@ export default function ScrollToTopButton() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const explore = document.getElementById("explore-section");
+    const explore = document.getElementById("experiences");
     if (!explore) return;
 
     const observer = new IntersectionObserver(
-      ([entry]) => setVisible(entry.isIntersecting || entry.boundingClientRect.top < 0),
-      { threshold: 0 }
+      ([entry]) =>
+        setVisible(entry.isIntersecting || entry.boundingClientRect.top < 0),
+      { threshold: 0 },
     );
 
     observer.observe(explore);
