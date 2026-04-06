@@ -2,7 +2,6 @@
 
 import { useRef, useState } from "react";
 import PlayButton from "@/components/PlayButton";
-import Image from "next/image";
 
 interface Step {
   title: string;
