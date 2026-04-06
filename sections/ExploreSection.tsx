@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ExploreCarousel from "@/components/ExploreCarousel";
+import { asset } from "@/lib/assetPath";
 
 const slideImages = [
   "/kids.webp",
@@ -7,7 +8,7 @@ const slideImages = [
   "/bicicle.webp",
   "/colorhouse.webp",
   "/sunset.webp",
-];
+].map(asset);
 
 interface Slide {
   alt: string;
@@ -34,7 +35,7 @@ export default function ExploreSection({ dict }: ExploreSectionProps) {
       {/* Full-section background */}
       <div className="absolute inset-0">
         <Image
-          src="/jacket.webp"
+          src={asset("/jacket.webp")}
           alt="mountains"
           fill
           className="object-cover object-[center_20%]"

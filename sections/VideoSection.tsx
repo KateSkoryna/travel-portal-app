@@ -15,7 +15,7 @@ interface VideoSectionProps {
   cards: VideoCard[];
 }
 
-const cardImages = ["/sunset.webp", "/view.webp"];
+const cardImages = ["/sunset.webp", "/view.webp"].map(asset);
 
 export default function VideoSection({ heading, cards }: VideoSectionProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -48,7 +48,7 @@ export default function VideoSection({ heading, cards }: VideoSectionProps) {
       {/* Background */}
       <div className="absolute inset-0">
         <Image
-          src="/mount.webp"
+          src={asset("/mount.webp")}
           alt=""
           fill
           className="object-cover object-center"

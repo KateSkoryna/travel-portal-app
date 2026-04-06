@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { asset } from "@/lib/assetPath";
 
 interface PhotoGalleryProps {
   heading: string;
@@ -73,7 +74,7 @@ export default function PhotoGallery({
                 className={`relative w-full ${img.aspect} rounded-xl overflow-hidden`}
               >
                 <Image
-                  src={img.src}
+                  src={asset(img.src)}
                   alt={img.alt}
                   fill
                   className="object-cover"

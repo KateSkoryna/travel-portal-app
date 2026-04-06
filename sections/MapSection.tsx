@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Locale } from "@/lib/getDictionary";
+import { asset } from "@/lib/assetPath";
 
 interface Stat {
   value: string;
@@ -58,7 +59,7 @@ export default function MapSection({ numbers, map, lang }: MapSectionProps) {
       <section className="relative bg-white overflow-hidden py-28 px-[8%] flex items-center justify-center min-h-[500px]">
         {/* Topographic decoration — left (top-left corner) */}
         <Image
-          src="/topo-left.svg"
+          src={asset("/topo-left.svg")}
           alt=""
           aria-hidden
           className="absolute -left-64 -top-10 h-[600px] w-auto pointer-events-none"
@@ -68,7 +69,7 @@ export default function MapSection({ numbers, map, lang }: MapSectionProps) {
         />
         {/* Topographic decoration — right (bottom-right corner, mirrored) */}
         <Image
-          src="/topo-left.svg"
+          src={asset("/topo-left.svg")}
           alt=""
           aria-hidden
           className="absolute -right-44 -bottom-10 h-[500px] w-auto pointer-events-none"

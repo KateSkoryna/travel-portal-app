@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Locale } from "@/lib/getDictionary";
+import { asset } from "@/lib/assetPath";
 
 interface Article {
   title: string;
@@ -14,14 +15,23 @@ interface ArticlesSectionProps {
   lang: Locale;
 }
 
-const articleImages = ["/path.webp", "/beach.webp"];
+const articleImages = ["/path.webp", "/beach.webp"].map(asset);
 
-export default function ArticlesSection({ articles, lang }: ArticlesSectionProps) {
+export default function ArticlesSection({
+  articles,
+  lang,
+}: ArticlesSectionProps) {
   return (
     <section id="about" className="relative bg-navy overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0 pointer-events-none opacity-20">
-        <Image src="/view.webp" alt="" fill className="object-cover" priority />
+        <Image
+          src={asset("/view.webp")}
+          alt=""
+          fill
+          className="object-cover"
+          priority
+        />
       </div>
 
       {/* Gradient overlays for seamless blending */}
