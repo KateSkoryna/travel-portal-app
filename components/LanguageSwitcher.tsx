@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { navItemClass } from "@/lib/classNames";
 import type { Locale } from "@/lib/getDictionary";
 
 export default function LanguageSwitcher({ lang }: { lang: Locale }) {
@@ -8,7 +9,7 @@ export default function LanguageSwitcher({ lang }: { lang: Locale }) {
   return (
     <button
       onClick={() => router.push(lang === "en" ? "/de" : "/en")}
-      className="font-body font-bold text-white uppercase text-[18px] tracking-wide hover:text-primary transition-colors"
+      className={navItemClass}
       aria-label="Switch language"
     >
       {lang === "en" ? "DE" : "EN"}

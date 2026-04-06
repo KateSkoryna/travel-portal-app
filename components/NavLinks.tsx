@@ -1,5 +1,7 @@
 "use client";
 
+import { navItemClass } from "@/lib/classNames";
+
 interface NavLink {
   key: string;
   label: string;
@@ -18,7 +20,7 @@ export default function NavLinks({ links }: { links: NavLink[] }) {
           <a
             href={`#${key}`}
             onClick={(e) => handleClick(e, key)}
-            className="font-body font-bold text-white uppercase text-[18px] tracking-wide hover:text-primary transition-colors"
+            className={navItemClass}
           >
             {label}
           </a>
